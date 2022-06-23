@@ -7,6 +7,7 @@
     android:background="@drawable/bg"
     tools:context="com.sima.videostreaming.login">
 
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="200dp"
@@ -16,9 +17,8 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.06"
+        app:layout_constraintVertical_bias="0.152"
         app:srcCompat="@drawable/user" />
-
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -84,6 +84,7 @@
         android:layout_height="53dp"
         android:fontFamily="sans-serif-medium"
         android:text="Login Here"
+        android:textColor="@color/buttonbg"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
